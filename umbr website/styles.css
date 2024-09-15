@@ -1,0 +1,109 @@
+body {
+    background-image: linear-gradient(0deg, #020024 0%, #00007d 35%, #d8d8ff 100%);
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;;
+}
+
+ul {
+    list-style-type: none;
+    background-color: black;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+li {
+    display:  inline-block;
+    margin:  20px;
+}
+
+section {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+marquee {
+    overflow: hidden;
+    position: relative;
+    background: #2c2c2c;
+    color: #ffffff;
+    border-style: inset;
+    border-color: gray;
+
+}
+
+img.title {
+    height: 100%;
+    width: 100%;
+    max-height: 400px;
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.right {
+    position: relative;
+    float: right;
+}
+
+.left {
+    position: relative;
+    float: left;
+}
+
+.leftbox {
+    float: left;
+    width: 25%;
+    height: 280px;
+    text-align: center;
+}
+
+.middlebox {
+    margin-top: -60px;
+    float: left;
+    width: 50%;
+    height: 280px;
+    text-align: center;
+}
+
+.rightbox {
+    position: relative;
+    overflow: hidden;
+    float: right;
+    width: 25%;
+    height: auto;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: #000000;
+    border: 2px solid #00009a;
+}
+  
+.button:hover {
+    background-color: #00009a;
+    color: white;
+}
